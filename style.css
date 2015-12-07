@@ -1,0 +1,114 @@
+body{
+    padding: 0;
+    margin:0;
+}
+
+#images{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+#images img{
+    margin: 10px;
+    cursor: pointer;
+}
+
+header{
+    margin:0 auto;
+    color: lightcoral;
+    text-align: center;
+}
+
+#lbWrapper{
+    position: absolute;
+    background-color: rgba(0,0,0,0.7);
+    display: none;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#lb img{
+    position: absolute;
+    margin: 0 auto;
+    top:5%;
+    bottom: 5%;
+    left:0;
+    right: 0;
+    max-height: 90%;
+    max-width:90%;
+}
+
+#lb div{
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+#left{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 25%;
+    height: 100%;
+}
+
+#content{
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 3px 3px grey;
+    width: 500px;
+}
+
+#content div{
+    margin: 15px;
+}
+
+#left div{
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    font-family: Arial;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+#right{
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 25%;
+    height: 100%;
+}
+
+#right div{
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    font-family: Arial;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+#close{
+    position: absolute;
+    color: #fff;
+    top:15px;
+    right: 15px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-family: Arial;
+    font-size: 18px;
+    z-index: 10;
+    cursor: pointer;
+}

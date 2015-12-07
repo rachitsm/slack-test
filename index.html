@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LightBox Photo Viewer</title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="app.js"></script>
+</head>
+<body onload="init()">
+    <div id="container">
+        <header>
+            <h2>Get photos from Flickr in this page and view in LightBox</h2>
+        </header>
+        <div id="content">
+            <div>
+                <label for="tags">Enter Tags: </label>
+                <input type="text" placeholder="Provide tags for photos" id="tags" value="">
+                <span>***The default tag will be nature</span>
+            </div>
+            <div>
+                <button type="button" id="getBtn" onclick="getPhotos()">Get Photos!</button>
+            </div>
+        </div>
+        <div id="images">
+
+        </div>
+        <div id="lbWrapper">
+            <div id="lb"></div>
+            <div id="left"><div>&lt</div></div>
+            <div id="right"><div>&gt</div></div>
+            <div id="close">X</div>
+        </div>
+    </div>
+</body>
+</html>
